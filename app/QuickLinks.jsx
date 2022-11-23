@@ -13,7 +13,7 @@ const QuickLinks = ({ visible, setVisible }) => {
 
     useEffect(() => {
         let items = []
-        Array.from({ length:30 }).map((x,i) => {
+        Array.from({ length:28 }).map((x,i) => {
             items.push({key:i, name:`Link ${i}`})
         });
         setLinks(items);
